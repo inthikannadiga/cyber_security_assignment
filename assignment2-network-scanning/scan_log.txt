@@ -1,0 +1,9 @@
+[07:50:45] Program started
+[07:52:49] Program started
+[07:53:05] ARP scan started
+[07:54:37] ARP scan completed
+[07:54:45] Program exited
+[07:57:35] Program started
+[07:57:38] ARP scan started
+[07:58:08] ARP scan completed
+[07:59:03] Program exited
