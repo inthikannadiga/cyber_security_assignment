@@ -86,4 +86,4 @@ python3 main_scanner.py
 
 ## 👩‍💻 Author
 
-Tejaswini H L
+Darshan M 
