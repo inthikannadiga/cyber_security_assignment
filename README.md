@@ -1,74 +1,90 @@
-# 🔐 Cyber Security & Ethical Hacking Assignments
+# CampusPe Cybersecurity & Ethical Hacking Assignments
 
-This repository contains my practical assignments and projects in **Cyber Security** and **Ethical Hacking**.
-It demonstrates hands-on skills in **Linux, Bash scripting, automation, and network scanning**.
-
----
-
-## 📁 Assignments Overview
-
-### 🛠️ Assignment 1: Bash Automation
-
-📂 Folder: `assignment1-bash-automation`
-
-This assignment focuses on automating system-level tasks using Bash scripting.
-
-**Scripts Included:**
-
-* System Information Script
-* File Manager Script
-* Log Analyzer Script
-* Backup Script
-* User Report Script
+This repository contains assignments related to cybersecurity and ethical hacking, implemented using Bash scripting and Python.
 
 ---
 
-### 🌐 Assignment 2: Network Scanning Automation
+## 📁 Project Structure
 
-📂 Folder: `assignment2-network-scanning`
-
-This assignment focuses on network reconnaissance and scanning using Python and security tools.
-
-**Tools & Scripts:**
-
-* Ping Scanner
-* ARP Scanner
-* Nmap Scanner
-
-**Additional Contents:**
-
-* Output files (CSV)
-* Execution screenshots
+```
+campuspe-assignments/
+│
+├── assignment1-bash-automation/
+│   ├── q1_system_info.sh
+│   ├── q2_file_manager.sh
+│   ├── q3_log_analyzer.sh
+│   ├── q4_backup.sh
+│   ├── q5_user_report.sh
+│   ├── sample.log
+│   └── README.md
+│
+├── assignment2-network-scanning/
+│   ├── arp2.csv
+│   ├── arp_scanner.py
+│   ├── gui_scanner.py
+│   ├── main_scanner.py
+│   ├── nmap_scanner.py
+│   ├── ping_scanner.py
+│   ├── scan_log.txt
+│   ├── threaded_scanner.py
+│   ├── README.md
+│   │
+│   └── screenshots/
+│       ├── all_scans.png
+│       ├── arp_csv.png
+│       ├── arp_output.png
+│       ├── gui.png
+│       ├── logging_proof.png
+│       ├── menu.png
+│       ├── multithreading.png
+│       ├── nmap_output.png
+│       ├── ping_output.png
+│       └── range_scan.png
+│
+└── README.md
+```
 
 ---
 
-## ⚙️ Technologies Used
+## 📌 Assignment 1 — Bash Automation
 
-* Kali Linux
-* Bash Scripting
-* Python
-* Nmap
-* Networking Concepts
-* Git & GitHub
+Shell scripts to automate system-level tasks in Kali Linux.
 
----
-
-## 🎯 Learning Objectives
-
-* Understand Cyber Security fundamentals
-* Perform Ethical Hacking techniques
-* Automate tasks using Bash & Python
-* Conduct network scanning and analysis
+### Features:
+- System information extraction
+- File management automation
+- Log analysis
+- Backup creation
+- User report generation
 
 ---
 
-## 📌 Author
+## 📌 Assignment 2 — Network Scanning Automation
 
+Python-based tools to perform network scanning and analysis.
+
+### Features:
+- Ping Scanner
+- ARP Scanner
+- Nmap Scanner
+- Unified Scanner (Menu-based)
+- CSV Export
+- Network Range Scanning
+- Multi-threaded Scanning
+- GUI using Tkinter
+- Logging with timestamps
+
+---
+
+## 🛠 Technologies Used
+- Kali Linux
+- Bash
+- Python
+- Nmap
+- Tkinter
+- Linux command-line tools
+
+---
+
+## 👩‍💻 Author
 Darshan M
-
----
-
-## 🚀 Note
-
-This repository is part of my Cyber Security learning journey and showcases practical implementations of security concepts.
-
