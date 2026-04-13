@@ -1,0 +1,10 @@
+scan results for 192.168.1.1
+date: 2026-04-12_10-38-17
+-------------------
+port 21 closed
+port 22 closed
+port 80 open
+port 443 open
+port 3306 closed
+-------------------
+open ports: 2
