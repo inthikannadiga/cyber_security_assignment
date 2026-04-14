@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Keylogger Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        input {
+            padding: 10px;
+            width: 300px;
+            font-size: 16px;
+        }
+        #log {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            min-height: 100px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Keylogger Demonstration</h2>
+
+    <p>Type something in the input box below:</p>
+
+    <input type="text" id="inputField" placeholder="Start typing...">
+
+    <h3>Captured Keys:</h3>
+    <div id="log"></div>
+
+    <script>
+        // Get references to input field and log display
+        const inputField = document.getElementById("inputField");
+        const logDiv = document.getElementById("log");
+
+        // Add event listener for keypress
+        inputField.addEventListener("keypress", function(event) {
+            // Capture the pressed key
+            const key = event.key;
+
+            // Display the key on the page
+            logDiv.innerHTML += key;
+        });
+
+        /*
+        ================= SECURITY IMPLICATIONS =================
+
+        This script demonstrates a basic keylogger.
+
+        What it does:
+        - Captures every key pressed inside the input field
+        - Displays the captured keys in real-time
+
+        Why this is dangerous:
+        - Attackers can steal sensitive data such as:
+            • Passwords
+            • Credit card numbers
+            • Personal messages
+
+        Real-world attacks:
+        - Injected via XSS vulnerabilities
+        - Runs silently without user knowledge
+        - Sends captured data to attacker servers
+
+        Prevention:
+        - Sanitize all user inputs (prevent XSS)
+        - Use Content Security Policy (CSP)
+        - Avoid executing untrusted scripts
+
+        NOTE:
+        This is for educational purposes only.
+        ========================================================
+        */
+    </script>
+
+</body>
+</html>
